@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins','Noto Sans Lao','Phetsarath OT', sans-serif;
+}
+.font14{
+    font-size: 14px;
+    font-family: 'Poppins','Noto Sans Lao','Phetsarath OT', sans-serif;
+}
+.font12{
+    font-size: 14px;
+    font-family: 'Poppins','Noto Sans Lao','Phetsarath OT', sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+.toolcolor{
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+*{
+  box-sizing: border-box;
+}
+.form{
+  padding: 30px 40px;
+}
+.container2{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.3);
+  width: 400px;
+  max-width:  100%;
+}
+.mergei{
+visibility: visible;
+position: absolute;
+top: 40px;
+right: 10px;
+margin-right: 5px;
+}
+.form-control2{
+margin-bottom: 10px;
+padding-bottom: 20px;
+position: relative;
+}
+.form-control2 input{
+border: 2px solid #f0f0f0;
+border-radius: 4px;
+display: block;
+font-family: inherit;
+font-size: 15px;
+padding: 10px;
+width: 100%;
+}
+.form-control2 select{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    }
+.form-control2 textarea{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control2 label{
+display: inline-block;
+margin-bottom: 5px;
+}
+.form-control2 i {
+position: absolute;
+top: 40px;
+right: 10px;
+margin-right: 5px;
+visibility: hidden;
+}
+.form-control2 small {
+visibility: hidden;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.form-control2.success input {
+border-color: #2ecc71;
+}
+.form-control2.success textarea {
+    border-color: #2ecc71;
+}
+.form-control2.success select {
+    border-color: #2ecc71;
+}
+.form-control2.error input{
+border-color: #e74c3c;
+width: 100%;
+}
+
+.form-control2.error textarea{
+border-color: #e74c3c;
+width: 100%;
+}
+.form-control2.error select{
+    border-color: #e74c3c;
+    width: 100%;
+}
+.form-control2.success i.fa-check-circle {
+color: #2ecc71;
+visibility: visible;
+}
+.form-control2.error i.fa-exclamation-circle {
+color: #e74c3c;
+visibility: visible;
+}
+.form-control2.error small {
+color: #e74c3c;
+visibility: visible;
+left: 10px;
+}
+.form-control2.success small {
+color: #2ecc71;
+visibility: visible;
+left: 10px;
+}
